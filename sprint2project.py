@@ -31,7 +31,7 @@ if my_page == 'Client: ITZY':
     st.markdown('<div style="color: #FFFFFF;">.</div>',unsafe_allow_html=True) # for space between title and paragraph #
     st.subheader("Who is ITZY?")
     st.markdown('<div style="color: #FFFFFF;">.</div>',unsafe_allow_html=True) # for space between title and paragraph #
-    st.markdown('<iframe width="560" height="315" src="https://www.youtube.com/embed/wTowEKjDGkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', unsafe_allow_html=True)
+    st.video("https://www.youtube.com/embed/wTowEKjDGkU")
     st.markdown('<div style="color: #FFFFFF;">.</div>',unsafe_allow_html=True) # for space between title and paragraph #
     st.markdown(" ITZY is a South Korean girl group formed by JYP Entertainment and they debuted on February 2019. They currently have an almost 3.5 million monthly listeners on Spotify with already 3 EPs, 1 album, and 1 single album under their belt. They’re popularly known for their own brand of spunkiness and their relentless advocacy for being true to one’s self.")
     
@@ -447,12 +447,12 @@ elif my_page == 'Recommendations':
     h1.markdown('<div style="text-align: center;color: #c6793a; font-weight: bold;">Camila Cabello</div>',unsafe_allow_html=True)
     h1.markdown('<div style="text-align: center;color: #666666; font-style: italic">96.9M Streams</div>',unsafe_allow_html=True)
     h1.markdown('<div style="color: #FFFFFF;">.</div>',unsafe_allow_html=True) # space #
-    h3.image('R&B-Drake.jpg',use_column_width=True)
-    h3.markdown('<div style="text-align: center;color: #77a9b4; font-weight: bold;">Drake</div>',unsafe_allow_html=True)
-    h3.markdown('<div style="text-align: center;color: #666666; font-style: italic">82.7M Streams</div>',unsafe_allow_html=True)
-    h5.image('Rap-Charlie Puth.jpg',use_column_width=True)
-    h5.markdown('<div style="text-align: center;color: #565b7b; font-weight: bold;">Charlie Puth</div>',unsafe_allow_html=True)
-    h5.markdown('<div style="text-align: center;color: #666666; font-style: italic">69.8M Streams</div>',unsafe_allow_html=True)
+    h2.image('R&B-Drake.jpg',use_column_width=True)
+    h2.markdown('<div style="text-align: center;color: #77a9b4; font-weight: bold;">Drake</div>',unsafe_allow_html=True)
+    h2.markdown('<div style="text-align: center;color: #666666; font-style: italic">82.7M Streams</div>',unsafe_allow_html=True)
+    h3.image('Rap-Charlie Puth.jpg',use_column_width=True)
+    h3.markdown('<div style="text-align: center;color: #565b7b; font-weight: bold;">Charlie Puth</div>',unsafe_allow_html=True)
+    h3.markdown('<div style="text-align: center;color: #666666; font-style: italic">69.8M Streams</div>',unsafe_allow_html=True)
     st.markdown('<div style="color: #FFFFFF;">.</div>',unsafe_allow_html=True) # space #
     st.markdown('<div style="color: #FFFFFF;">.</div>',unsafe_allow_html=True) # space #
     st.subheader("Artists to collaborate with based on song similarity (cosine distance)")
@@ -461,12 +461,12 @@ elif my_page == 'Recommendations':
     i1.image('Pop-Sigma.jpg',use_column_width=True)
     i1.markdown('<div style="text-align: center;color: #c6793a; font-weight: bold;">Sigma</div>',unsafe_allow_html=True)
     i1.markdown('<div style="text-align: center;color: #666666; font-style: italic">3.2×10^-3</div>',unsafe_allow_html=True)
-    i3.image('R&B-Drake.jpg',use_column_width=True)
-    i3.markdown('<div style="text-align: center;color: #77a9b4; font-weight: bold;">Drake</div>',unsafe_allow_html=True)
-    i3.markdown('<div style="text-align: center;color: #666666; font-style: italic">86.39×10^-3</div>',unsafe_allow_html=True)
-    i5.image('Rap-Lost Kings.jpg',use_column_width=True)
-    i5.markdown('<div style="text-align: center;color: #565b7b; font-weight: bold;">Lost Kings</div>',unsafe_allow_html=True)
-    i5.markdown('<div style="text-align: center;color: #666666; font-style: italic">85.18×10^-3</div>',unsafe_allow_html=True)
+    i2.image('R&B-Drake.jpg',use_column_width=True)
+    i2.markdown('<div style="text-align: center;color: #77a9b4; font-weight: bold;">Drake</div>',unsafe_allow_html=True)
+    i2.markdown('<div style="text-align: center;color: #666666; font-style: italic">86.39×10^-3</div>',unsafe_allow_html=True)
+    i3.image('Rap-Lost Kings.jpg',use_column_width=True)
+    i3.markdown('<div style="text-align: center;color: #565b7b; font-weight: bold;">Lost Kings</div>',unsafe_allow_html=True)
+    i3.markdown('<div style="text-align: center;color: #666666; font-style: italic">85.18×10^-3</div>',unsafe_allow_html=True)
     st.markdown('<div style="color: #FFFFFF;">.</div>',unsafe_allow_html=True) # space #
     st.markdown('<div style="color: #FFFFFF;">.</div>',unsafe_allow_html=True) # space #
     st.subheader("What musical direction to pursue")
